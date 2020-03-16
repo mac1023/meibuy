@@ -1,0 +1,394 @@
+@charset "utf-8";
+
+html{
+    font: 12px '宋体';
+}
+a{
+    color: #000;
+}
+.top{
+    background-color: #f7f7f7;
+    height: 26px;
+    border-bottom: 1px solid #d8d8d8;
+}
+
+.top_page{
+    width: 970px;
+    height: 26px;
+    margin: 0 auto;
+}
+.top_page_l{
+    line-height: 26px;
+}
+
+.top_page_r{
+    line-height: 26px;
+}
+
+.top_page_r ul li{
+    float: left;
+    padding-right: 10px;
+    line-height: 26px;
+}
+
+.top_page_r ul li s{
+    display: inline-block;
+    background: url(../image/icon.png);
+    width: 20px;
+    height: 7px;
+    background-position: 0px 750px;
+    overflow: hidden;
+}
+
+.logo{
+    width: 970px;
+    height: 98px;
+    margin: 0 auto;
+}
+
+.logo_l{
+    width: 200px;
+    height: 58px;
+    margin: 24px 0 19px 9px;
+    background-image: url(../image/taobaologo.png);
+    background-size: 145px 58px;
+    background-repeat: no-repeat;
+    text-indent: -9999em;
+}
+
+
+.logo_r{
+    width: 530px;
+    height: 42px;
+    /* background-color: pink; */
+    border: 1px solid #c9c9c9;
+    margin-top: 29px;
+}
+
+.logo_r_content{
+    margin:  5px 5px 5px 4px;
+}
+
+.logo_r_search{
+    width: 418px;
+    height: 28px;
+    border: 1px solid #c9c9c9;
+    color: #999999;
+}
+
+.logo_r_btn{
+    width: 89px;
+    height: 30px;
+    background-color: #2f70d0;
+    color: white;
+}
+
+.nav {
+    width: 970px;
+    height: 29px;
+    margin: 0 auto; 
+    /* background-color: tomato; */
+    border-bottom: 2px solid #0266a3;
+}
+
+
+
+.nav li {
+    padding: 0 15px 0 15px;
+    float: left;
+    line-height: 29px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.nav li a {
+    color: #0266a3;
+}
+
+.nav li:hover{
+    background-color: #0266a3;
+}
+
+.nav li:hover a {
+    color: white;
+}
+
+
+.banner {
+    width: 970px;
+    height: 210px;
+    /* background-color: pink; */
+    margin: 10px auto 0 auto;
+}
+
+.subNav {
+    width: 200px;
+    height: 210px;
+    /* background-color: red; */
+}
+
+.subNav h2 {
+    padding-left: 20px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: #0266a3;
+    color: white;
+}
+
+.subNav s {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: url(../image/icon.png) 0 1209px;
+    vertical-align: middle;
+}
+
+.subNav ul {
+    height: 180px;
+    background-color: #ebf0f6;
+}
+
+.subNav li{
+    /* height: 28px; */
+    font-size: 15px;
+    padding-top: 9px;
+    margin-left: 9px;
+}
+
+.subNav li a {
+    padding-left: 5px;
+}
+
+.guanggao {
+    width: 520px;
+    height: 210px;
+    background-color:yellow;
+    margin-left:  11px;
+}
+
+.message {
+    width: 230px;
+    height: 210px;
+    /* background-color: blue; */
+}
+
+.message_top {
+    height: 95px;
+    border: 1px solid #DDDDDD;
+    background-color: #f7faff;
+    margin-bottom: 21px;
+}
+
+.message_top .fw {
+    font-weight: bold;
+    padding: 7px 0 0 8px;
+}
+.message_top s  {
+    margin: 20px 10px 0 10px;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-image: url(../image/no.png);
+    background-size: 40px 40px;
+    background-repeat: no-repeat;
+}
+
+.message_top .cheap {
+    margin-top: 25px;
+}
+
+.message_bottom {
+    height: 92px;
+    background-color: #f7f7f7;
+}
+
+.message_bottom .findMessage {
+    text-align: center;
+    font-size: 14px;
+    padding-top: 11px;
+}
+
+.message_bottom .phone {
+    text-align: center;
+    color: #3f9ce0;
+    margin-top: 11px;
+}
+
+.message_bottom .btn {
+    width: 81px;
+    height: 23px;
+    background-image: url(../image/qq.jpg);
+    background-repeat: no-repeat;
+    background-size: 81px 23px;
+    margin-top: 9px;
+    margin-left: 79px;
+}
+.material {
+    width: 950px;
+    height: 34px;
+    border: 2px solid #c3d7e4;
+    margin: 0 auto;
+    margin-top: 14px;
+    /* background-color: red; */
+    line-height: 34px;
+    background-color: #ecf1f7;
+    font-weight: bold;
+    padding-left: 20px;
+}
+
+.product {
+    width: 970px;
+    height: 345px;
+    /* background-color: red; */
+    margin: 0 auto;
+    margin-top: 12px;
+}
+
+.product_l  {
+    width: 730px;
+    height: 345px;
+    /* background-color: pink; */
+    border: 1px solid #d8d8d8;
+}
+
+.product_l_top {
+    width: 712px;
+    height: 155px;
+    /* background-color: yellow; */
+    padding: 17px  0 0 20px;
+}
+
+.p_l_t_product1 {
+    width: 350px;
+    height: 146px;
+    /* background-color: blue; */
+    
+}
+
+.product .buy {
+    width: 99px;
+    height: 143px;
+    /* background-color: teal; */
+}
+
+.product .buy .img {
+    border: 1px solid #cacaca;
+    height: 100px;
+} 
+
+.product .buy .img s{
+   display: inline-block;
+   width: 90px;
+   height: 62px;
+   background: url(../image/cat.jpg);
+   margin: 15px 4px 0 3px ;
+
+} 
+
+.product .buy .btn {
+    width: 99px;
+    height: 26px;
+    background-color: #0a84ec;
+    color: white;
+    margin-top: 10px;
+}
+
+.product .explain {
+    width: 250px;
+    height: 143px;
+    /* background-color: red; */
+}
+
+.product .goodWife {
+    padding: 10px 0 0 10px;
+    font-size: 14px;
+}
+
+.product .explain .auto  {
+    color: #863f01;
+    padding: 13px 0 0 15px;
+}
+
+.product .explain .money  {
+    padding: 23px 0 0 11px;
+} 
+
+.product .explain .money span {
+    color: red;
+} 
+
+.product .explain .money s {
+    text-decoration: line-through;
+} 
+
+.product .explain .buyed {
+    font-size: 14px;
+    padding: 15px 0 0 11px;
+}
+
+.product_l_line {
+    margin: 0 4px 0 4px;
+    border-top: 1px solid #cccccc;
+}
+
+.product_r {
+    width: 227px;
+    height: 345px;
+    /* background-color: green; */
+    border:  1px solid #cccccc;
+}
+
+.product_r h2 {
+    height: 28px;
+    line-height: 28px;
+    padding-left: 15px;
+    border-bottom: 1px solid #cccccc;
+}
+
+.product_r  ul {
+    padding-top: 11px;
+
+}
+
+.product_r li {
+    line-height: 25px;
+    padding-left: 26px;
+}
+
+.zuoye {
+    width: 970px;
+    height: 500px;
+    background-color: teal;
+    margin: 0 auto;
+}
+
+.link {
+    width: 970px;
+    height: 103px;
+    margin: 0 auto;
+    margin-top: 11px;
+    border-top: 1px solid #dddddd;
+    color: #666666;
+    border-bottom: 3px solid #0a84ec;
+}
+
+.link_p1 {
+    margin-top: 30px;
+}
+.link_p2 {
+    margin-top: 15px;
+    margin-left: 60px;
+}
+
+.aboutMe {
+    width: 970px;
+    height: 91px;
+    margin: 0 auto;
+}
+
+.aboutMe p {
+    margin-top: 14px;
+    text-align: center;
+}
